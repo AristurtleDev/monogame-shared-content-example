@@ -24,9 +24,6 @@
   </Target>
   <Import Project="..\SharedContentExample.Shared\SharedContentExample.Shared.projitems" Label="Shared" />
   <ItemGroup>
-    <MonoGameContentReference Include="..\SharedContentExample.Shared\Content\Content.mgcb" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\SharedContentExample.Shared\Content\Content.mgcb" Link="Content\Content.mgcb" />
+    <MonoGameContentReference Include="..\SharedContentExample.Shared\Content\Content.mgcb" Link="Content\Content.mgcb" />
   </ItemGroup>
 </Project>
